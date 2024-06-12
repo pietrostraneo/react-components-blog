@@ -7,7 +7,7 @@ export default function Header() {
                 <div className="col-12 d-flex justify-content-between text-white align-items-center">
 
                     <div className="logo">
-                        <img src="/logo.png" alt="" className="img-fluid" />
+                        <img src="/logo.png" alt="" className={`img-fluid ${styleHeader.jumbo_img}`} />
                     </div>
 
                     <div className="nav d-flex gap-4 align-items-center">
@@ -18,9 +18,9 @@ export default function Header() {
                             <li>About us</li>
                         </ul>
                         <ul className="list-unstyled d-flex gap-2 justify-content-center align-items-center">
-                            <li><i className={`fas fa-magnifying-glass`}></i></li>
-                            <li><i className="fas fa-bookmark"></i></li>
-                            <li><i className="fas fa-user"></i></li>
+                            <li><i className={`fas fa-magnifying-glass ${styleHeader.buttons}`}></i></li>
+                            <li><i className={`fas fa-bookmark ${styleHeader.buttons}`}></i></li>
+                            <li><i className={`fas fa-user ${styleHeader.buttons}`}></i></li>
                         </ul>
                     </div >
                 </div>

@@ -1,4 +1,4 @@
-img {
+.jumbo_img {
     width: 200px;
     filter: invert(100%);
 }
@@ -13,7 +13,7 @@ li:hover {
     text-decoration: underline;
 }
 
-i {
+.buttons {
     background-color: rgba(41, 48, 56, 0.8);
     padding: 0.7rem;
     border-radius: 12px;
