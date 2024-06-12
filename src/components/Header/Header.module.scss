@@ -20,4 +20,8 @@ i {
     border: 1px solid transparent;
     transition: all 0.2s ease-in;
     cursor: pointer;
+
+    &:hover {
+        border: 1px solid white;
+    }
 }
